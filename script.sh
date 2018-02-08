@@ -4,6 +4,7 @@ if command -v brew >/dev/null 2>&1 ; then
   echo "Updating the Homebrew"
   brew update
   brew upgrade
+  brew cask upgrade
   brew cleanup
   brew cask cleanup
   brew prune
