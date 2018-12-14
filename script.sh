@@ -23,7 +23,7 @@ if command -v npm >/dev/null 2>&1 ; then
   npm update --global --progress false
 fi
 
-if ! command -v gem >/dev/null 2>&1 ; then
+if command -v gem >/dev/null 2>&1 ; then
   echo "Updating Gem"
   gem update --system
   gem cleanup
