@@ -6,7 +6,6 @@ if command -v brew >/dev/null 2>&1 ; then
   brew upgrade
   brew cask upgrade
   brew cleanup
-  brew prune
   brew bundle dump --global --force
 fi
 
